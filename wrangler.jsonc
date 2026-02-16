@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "spawnbase-docs",
+  "compatibility_date": "2025-05-01",
+  "assets": {
+    "directory": "dist"
+  },
+  "env": {
+    "preview": {
+      "name": "spawnbase-docs-preview",
+      "routes": [
+        {
+          "pattern": "docs-preview.spawnbase.ai",
+          "custom_domain": true
+        }
+      ]
+    },
+    "production": {
+      "name": "spawnbase-docs",
+      "routes": [
+        {
+          "pattern": "docs.spawnbase.ai",
+          "custom_domain": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@layer base, starlight, theme, components, utilities;
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/jetbrains-mono';
+@import '@radix-ui/colors/orange.css';
+@import '@radix-ui/colors/indigo.css';
+@import '@radix-ui/colors/slate.css';
+@import '@astrojs/starlight-tailwind';
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* Fonts — @theme so starlight-tailwind plugin picks them up */
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+
+/* Bridge: apply Radix dark values when Starlight activates dark mode.
+   Radix light CSS (orange.css, indigo.css, slate.css) sets vars on :root.
+   Radix dark CSS uses .dark/.dark-theme — Starlight uses [data-theme="dark"].
+   We manually apply the dark values here. */
+:root[data-theme='dark'] {
+  --indigo-1: #11131f;
+  --indigo-2: #141726;
+  --indigo-3: #182449;
+  --indigo-4: #1d2e62;
+  --indigo-5: #253974;
+  --indigo-6: #304384;
+  --indigo-7: #3a4f97;
+  --indigo-8: #435db1;
+  --indigo-9: #3e63dd;
+  --indigo-10: #5472e4;
+  --indigo-11: #9eb1ff;
+  --indigo-12: #d6e1ff;
+
+  --orange-1: #17120e;
+  --orange-2: #1e160f;
+  --orange-3: #331e0b;
+  --orange-4: #462100;
+  --orange-5: #562800;
+  --orange-6: #66350c;
+  --orange-7: #7e451d;
+  --orange-8: #a35829;
+  --orange-9: #f76b15;
+  --orange-10: #ff801f;
+  --orange-11: #ffa057;
+  --orange-12: #ffe0c2;
+
+  --slate-1: #111113;
+  --slate-2: #18191b;
+  --slate-3: #212225;
+  --slate-4: #272a2d;
+  --slate-5: #2e3135;
+  --slate-6: #363a3f;
+  --slate-7: #43484e;
+  --slate-8: #5a6169;
+  --slate-9: #696e77;
+  --slate-10: #777b84;
+  --slate-11: #b0b4ba;
+  --slate-12: #edeef0;
+}
+
+/* Starlight theme tokens — dual accent (indigo + orange), matching web app.
+   Indigo = reading accent (links, sidebar, highlights).
+   Orange = action accent (CTA buttons only, overridden below).
+
+   Role mapping (verified against props.css):
+   gray-2 → --sl-color-text (body text, line 39)
+   gray-5 → --sl-color-bg-inline-code (line 45), --sl-color-hairline-light (line 47)
+   gray-6 → --sl-color-bg-nav (line 43), --sl-color-bg-sidebar (line 44)
+   black  → --sl-color-bg (line 42) */
+:root {
+  --sl-color-accent: var(--indigo-9);
+  --sl-color-accent-high: var(--indigo-11);
+  --sl-color-accent-low: var(--indigo-3);
+
+  --sl-color-white: var(--slate-12);
+  --sl-color-gray-1: var(--slate-12);
+  --sl-color-gray-2: var(--slate-12);
+  --sl-color-gray-3: var(--slate-11);
+  --sl-color-gray-4: var(--slate-7);
+  --sl-color-gray-5: var(--slate-4);
+  --sl-color-gray-6: var(--slate-3);
+  --sl-color-black: var(--slate-1);
+}
+
+/* Light mode only: gray-7 used for nav bg (props.css line 153) */
+:root[data-theme='light'] {
+  --sl-color-gray-7: var(--slate-2);
+}
+
+/* Site title: foreground color, not accent (matches web app logo) */
+.site-title {
+  color: var(--sl-color-white) !important;
+}
+
+/* CTA buttons: orange accent (web app --accent: var(--orange-9)).
+   LinkButton.astro .primary uses --sl-color-text-accent for bg,
+   which now resolves to indigo. Override to orange for CTAs. */
+.sl-link-button.primary {
+  background: var(--orange-9);
+  border-color: var(--orange-9);
+}

@@ -1,0 +1,50 @@
+---
+title: Spawnbase Documentation
+description: Build AI-powered workflows with natural language
+template: splash
+hero:
+  tagline: Build powerful AI automation workflows using natural language. Describe what you want, and watch it come to life.
+  actions:
+    - text: Get Started
+      link: /quickstart/
+      icon: right-arrow
+      variant: primary
+    - text: Join Discord
+      link: https://discord.gg/spawnbase
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Why Spawnbase?
+
+<CardGrid stagger>
+  <Card title="Natural Language First" icon="pencil">
+    Describe your workflow in plain English. Our AI copilot understands your intent and builds the automation for you.
+  </Card>
+  <Card title="Visual Builder" icon="setting">
+    Fine-tune your workflows with a powerful drag-and-drop canvas. Connect triggers, AI steps, and actions visually.
+  </Card>
+  <Card title="AI-Native Nodes" icon="star">
+    Built-in AI capabilities powered by Claude, GPT, and more. Process, analyze, and generate content at any step.
+  </Card>
+  <Card title="App Integrations" icon="puzzle">
+    Connect to Slack, GitHub, Google Sheets, and dozens more. Automate across your entire stack.
+  </Card>
+</CardGrid>
+
+## Quick Example
+
+```
+"Every morning at 9am, check my GitHub issues,
+summarize the urgent ones, and post to #engineering in Slack"
+```
+
+The copilot turns this into a complete workflow:
+1. **Schedule Trigger** - Fires daily at 9am
+2. **GitHub Action** - Fetches open issues labeled "urgent"
+3. **AI Step** - Summarizes the issues using Claude
+4. **Slack Action** - Posts the summary to #engineering
+
+Ready to build your first workflow? [Get started →](/quickstart/)
