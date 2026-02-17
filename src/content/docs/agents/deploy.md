@@ -1,6 +1,6 @@
 ---
-title: Deploy
-description: Test and deploy your agents
+title: Deploy Agents
+description: Test your agent with live data, connect third-party accounts, and deploy to preview or production environments.
 ---
 
 Test your agent, connect apps, and deploy to production.

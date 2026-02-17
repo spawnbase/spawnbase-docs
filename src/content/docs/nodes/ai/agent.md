@@ -1,6 +1,6 @@
 ---
-title: AI Agent
-description: LLM-powered node with optional tool use
+title: AI Agent Node
+description: Add LLM-powered reasoning to your workflows. Supports Anthropic, OpenAI, Google, and xAI models with optional tool use for autonomous agents.
 ---
 
 The AI Agent node executes LLM calls with optional tool use. Without tools, it makes a single LLM call. With tools enabled, it becomes an autonomous agent that can reason, use tools, and iterate.

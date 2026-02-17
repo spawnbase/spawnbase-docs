@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Common node configuration issues and how to resolve them
+description: Fix common node configuration issues — empty dropdowns, missing permissions, connection errors, and failed executions.
 ---
 
 This page covers common issues you may encounter when configuring nodes in your workflows.

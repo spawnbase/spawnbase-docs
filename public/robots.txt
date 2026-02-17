@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://docs.spawnbase.ai/sitemap-index.xml

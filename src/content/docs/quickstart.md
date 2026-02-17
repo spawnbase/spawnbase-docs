@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-description: Build your first workflow in 5 minutes
+description: Build your first AI workflow in under 5 minutes. Describe what to automate, connect your apps, test, and deploy — step by step.
 ---
 
 Spawnbase is an AI-powered workflow automation platform. Describe what you want to automate in plain English, and the AI copilot builds it for you. Then fine-tune with the visual canvas.

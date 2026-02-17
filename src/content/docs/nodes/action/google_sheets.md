@@ -1,6 +1,6 @@
 ---
-title: Google Sheets
-description: Append, read, and clear spreadsheet data.
+title: Google Sheets Integration
+description: Read, write, and manage spreadsheet data from your AI workflows. Append rows, update cells, and format sheets via OAuth.
 ---
 
 The Google Sheets node lets your agents read, write, and manage spreadsheet data — including rows, cells, worksheets, formatting, and validation.

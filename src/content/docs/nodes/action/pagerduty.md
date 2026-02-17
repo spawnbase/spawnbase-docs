@@ -1,6 +1,6 @@
 ---
-title: PagerDuty
-description: Create, ack, and list incidents.
+title: PagerDuty Integration
+description: Automate incident response from your AI workflows — trigger, acknowledge, and resolve PagerDuty incidents via OAuth.
 ---
 
 The PagerDuty node lets your agents trigger, acknowledge, and resolve incidents, and find who's on call.

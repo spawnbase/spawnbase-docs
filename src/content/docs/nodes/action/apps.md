@@ -1,6 +1,6 @@
 ---
 title: App Actions
-description: Connect third-party apps to your workflows
+description: Connect Slack, GitHub, Google Sheets, Notion, and 15+ other apps to your AI workflows. Browse all supported integrations.
 ---
 
 App action nodes let your agents interact with external services — send Slack messages, create Linear issues, capture PostHog events, and more.

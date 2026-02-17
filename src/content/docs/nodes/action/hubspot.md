@@ -1,6 +1,6 @@
 ---
-title: HubSpot
-description: Manage contacts, deals, and CRM automation.
+title: HubSpot Integration
+description: Automate HubSpot CRM from your AI workflows — manage contacts, deals, marketing emails, and conversations via OAuth.
 ---
 
 The HubSpot node lets your agents work across the full HubSpot platform — CRM objects, marketing emails, workflows, conversations, and CMS pages.

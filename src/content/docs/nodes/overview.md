@@ -1,6 +1,6 @@
 ---
-title: Nodes
-description: Building blocks for your agents
+title: Nodes Overview
+description: Explore the building blocks of Spawnbase agents — triggers, AI nodes, app actions, and control flow. Learn what each node type does.
 ---
 
 Nodes are the building blocks of agents. Each node performs a specific action, and you connect them to create workflows.

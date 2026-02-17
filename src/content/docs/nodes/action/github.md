@@ -1,6 +1,6 @@
 ---
-title: GitHub
-description: Monitor PRs, triage issues, automate repo workflows.
+title: GitHub Integration
+description: Automate GitHub from your AI workflows — manage repos, issues, PRs, gists, and Actions. Connect via OAuth.
 ---
 
 The GitHub node lets your agents interact with repositories, issues, pull requests, gists, and GitHub Actions workflows.

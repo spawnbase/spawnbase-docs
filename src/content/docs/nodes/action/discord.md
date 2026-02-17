@@ -1,6 +1,6 @@
 ---
-title: Discord
-description: Send messages and automate community workflows.
+title: Discord Integration
+description: Send messages with rich embeds to Discord channels from your AI workflows. Configure bot tokens and channel permissions.
 ---
 
 The Discord node lets your agents send messages to Discord channels, including rich embeds and interactive components.

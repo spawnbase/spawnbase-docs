@@ -1,6 +1,6 @@
 ---
-title: Typeform
-description: Fetch responses, inspect forms, manage webhooks.
+title: Typeform Integration
+description: Automate Typeform from your AI workflows — create forms, fetch responses, manage images and webhooks via OAuth.
 ---
 
 The Typeform node lets your agents create and manage forms, fetch responses, and work with images.

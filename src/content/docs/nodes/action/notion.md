@@ -1,6 +1,6 @@
 ---
-title: Notion
-description: Query databases, retrieve and create pages.
+title: Notion Integration
+description: Automate Notion from your AI workflows — create pages, query databases, and manage content blocks via OAuth.
 ---
 
 The Notion node lets your agents create and update pages, query databases, manage blocks, and upload files.

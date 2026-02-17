@@ -1,6 +1,6 @@
 ---
-title: Jira
-description: Create issues, search across projects.
+title: Jira Integration
+description: Automate Jira from your AI workflows — create, update, and search issues, manage transitions and project boards via OAuth.
 ---
 
 The Jira node lets your agents create, update, and search issues, manage transitions, and work with projects, comments, and attachments.

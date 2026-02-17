@@ -1,6 +1,6 @@
 ---
-title: Slack
-description: Send updates, schedule reminders, and collaborate with your team in real time.
+title: Slack Integration
+description: Send messages, schedule updates, and post to channels or threads from your AI workflows. Supports Block Kit formatting.
 ---
 
 The Slack node lets your agents send messages to channels, users, and threads — including scheduled messages and rich Block Kit layouts.

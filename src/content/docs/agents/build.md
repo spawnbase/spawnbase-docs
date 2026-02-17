@@ -1,6 +1,6 @@
 ---
-title: Build
-description: How to build agents in Spawnbase
+title: Build Agents
+description: Design agents using the visual canvas and AI copilot. Add triggers, connect AI nodes and app actions, then wire data flow between steps.
 ---
 
 Build agents using the visual canvas and AI copilot.

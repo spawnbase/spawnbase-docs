@@ -1,6 +1,6 @@
 ---
-title: Gmail
-description: Send emails, search inboxes, fetch messages.
+title: Gmail Integration
+description: Send emails, search inboxes, manage labels and drafts from your AI workflows. Connect via Google OAuth.
 ---
 
 The Gmail node lets your agents send emails, search inboxes, manage labels, and work with drafts and attachments.

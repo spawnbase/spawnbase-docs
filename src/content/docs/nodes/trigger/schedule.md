@@ -1,6 +1,6 @@
 ---
 title: Schedule Trigger
-description: Run your agent on a recurring schedule
+description: Configure recurring agent execution — minutely, hourly, daily, weekly, monthly, or custom cron expressions.
 ---
 
 The Schedule Trigger runs your agent automatically on a recurring schedule. Configure when and how often your agent executes.

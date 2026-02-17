@@ -1,6 +1,6 @@
 ---
-title: Airtable
-description: Work with relational bases for CRM or ops.
+title: Airtable Integration
+description: Automate Airtable from your AI workflows — create, read, update, and search records across bases. Connect via OAuth.
 ---
 
 The Airtable node lets your agents create, read, update, and search records across bases, tables, and views.

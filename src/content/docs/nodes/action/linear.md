@@ -1,6 +1,6 @@
 ---
-title: Linear
-description: Create and update issues.
+title: Linear Integration
+description: Automate Linear from your AI workflows — create and update issues, search projects, and manage team backlogs via OAuth.
 ---
 
 The Linear node lets your agents create and update issues, search across projects, and manage teams and projects.

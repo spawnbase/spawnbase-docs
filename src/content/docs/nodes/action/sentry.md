@@ -1,6 +1,6 @@
 ---
-title: Sentry
-description: Track errors and surface issue context.
+title: Sentry Integration
+description: Monitor and triage Sentry errors from your AI workflows — list issues, inspect events, and update issue status via OAuth.
 ---
 
 The Sentry node lets your agents list and update issues and events from your Sentry projects.

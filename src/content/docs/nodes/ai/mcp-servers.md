@@ -1,6 +1,6 @@
 ---
 title: MCP Servers
-description: Connect external tool servers to your AI agents via Model Context Protocol.
+description: Extend AI agent capabilities with external tools via Model Context Protocol. Connect code search, databases, issue trackers, and more.
 ---
 
 MCP (Model Context Protocol) servers extend your AI agent's capabilities with external tools — code search, issue tracking, database access, and anything else an MCP server exposes.

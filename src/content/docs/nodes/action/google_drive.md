@@ -1,6 +1,6 @@
 ---
-title: Google Drive
-description: Browse files, upload assets, sync docs.
+title: Google Drive Integration
+description: Manage files, folders, shared drives, and permissions from your AI workflows. Upload, download, and organize via OAuth.
 ---
 
 The Google Drive node lets your agents manage files, folders, shared drives, comments, and permissions.

@@ -1,6 +1,6 @@
 ---
-title: Overview
-description: What are Spawnbase agents
+title: Agents Overview
+description: Learn what Spawnbase agents are — automated workflows that combine triggers, AI nodes, and app integrations to execute complex tasks.
 ---
 
 An agent is an automated workflow that executes a series of steps in response to a trigger. Agents combine AI capabilities with app integrations to automate complex tasks.

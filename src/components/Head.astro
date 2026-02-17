@@ -1,0 +1,27 @@
+---
+import type { Props } from '@astrojs/starlight/props'
+import Default from '@astrojs/starlight/components/Head.astro'
+
+const title = Astro.props.entry?.data?.title ?? 'Spawnbase Documentation'
+const description = Astro.props.entry?.data?.description ?? 'Spawnbase documentation'
+
+const isHomepage = Astro.url.pathname === '/' || Astro.url.pathname === ''
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': isHomepage ? 'WebSite' : 'TechArticle',
+  headline: title,
+  description,
+  url: Astro.url.href,
+  ...(isHomepage
+    ? { name: 'Spawnbase Documentation' }
+    : {
+        author: { '@type': 'Organization', name: 'Spawnbase', url: 'https://spawnbase.ai' },
+        publisher: { '@type': 'Organization', name: 'Spawnbase', url: 'https://spawnbase.ai' },
+      }),
+}
+---
+
+<Default {...Astro.props} />
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)}></script>

@@ -1,6 +1,6 @@
 ---
 title: Manual Trigger
-description: Run agents on demand
+description: Start agent runs on demand for testing, one-off tasks, or human-initiated workflows. No schedule required.
 ---
 
 The Manual trigger lets you run an agent on demand — no schedule or webhook required. Every agent can be triggered manually, even if it has another trigger configured.

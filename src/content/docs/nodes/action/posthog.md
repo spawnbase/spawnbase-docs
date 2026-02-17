@@ -1,6 +1,6 @@
 ---
-title: PostHog
-description: Query product analytics insights or capture custom events.
+title: PostHog Integration
+description: Query product analytics and capture custom events from your AI workflows. Use HogQL queries and Personal API Keys.
 ---
 
 The PostHog node lets your agents capture custom events, query analytics with HogQL, and manage insights and cohorts.
